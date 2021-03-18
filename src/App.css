@@ -1,38 +1,178 @@
-.App {
+.app {
+  height: 100vh;
+  width: 100%;
+  background: #f4f8fd;
+}
+
+.app .row {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f4f8fd;
+}
+
+.app .row .col {
+  height: 40%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-num {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (27%)[3];
+      grid-template-columns: repeat(3, 27%);
+  -ms-grid-rows: (29%)[3];
+      grid-template-rows: repeat(3, 29%);
+  -webkit-column-gap: 4%;
+          column-gap: 4%;
+  row-gap: 4%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col-num .number {
+  border: thin solid #ddd;
+  height: 100%;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.help {
+  color: #1f3961;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.col-star {
+  background-color: #092651;
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (27%)[3];
+      grid-template-columns: repeat(3, 27%);
+  -ms-grid-rows: (29%)[3];
+      grid-template-rows: repeat(3, 29%);
+  -webkit-column-gap: 4%;
+          column-gap: 4%;
+  row-gap: 4%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.star {
+  display: inline-block;
+  margin: 0 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.star:after {
+  content: "\2605";
+  font-size: 64px;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.number {
+  background-color: #eee;
+  border: thin solid #ddd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.number:focus,
+.number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.timer {
+  letter-spacing: 2px;
+  margin-top: 3px;
+  margin-left: 3px;
+  color: #1f3961;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.timer span {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.game-done {
+  background-color: #092651;
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.play-again {
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 9px 15px;
+  border: 1px solid #d9d9d9;
+  background-color: #092651;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
+
+.play-again:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=app.css.map */

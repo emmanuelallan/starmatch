@@ -1,0 +1,151 @@
+.app {
+  height: 100vh;
+  width: 100%;
+  background: #f4f8fd;
+  .row {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f4f8fd;
+    .col {
+      height: 40%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.col-num {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 27%);
+  grid-template-rows: repeat(3, 29%);
+  column-gap: 4%;
+  row-gap: 4%;
+  justify-content: center;
+  align-items: center;
+  .number {
+    border: thin solid #ddd;
+    height: 100%;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+  }
+}
+
+.help {
+  color: #1f3961;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.col-star {
+  background-color: #092651;
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 27%);
+  grid-template-rows: repeat(3, 29%);
+  column-gap: 4%;
+  row-gap: 4%;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  display: inline-block;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.star:after {
+  content: "\2605";
+  font-size: 64px;
+  color: #fff;
+}
+
+.number {
+  background-color: #eee;
+  border: thin solid #ddd;
+}
+
+.number:focus,
+.number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.timer {
+  letter-spacing: 2px;
+  margin-top: 3px;
+  margin-left: 3px;
+  color: #1f3961;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+  span {
+    font-weight: 900;
+    font-size: 18px;
+  }
+}
+
+.game-done {
+  background-color: #092651;
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
+  //   animation: blinkingText 1.2s infinite;
+}
+
+.play-again {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 9px 15px;
+  border: 1px solid #d9d9d9;
+  background-color: #092651;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.play-again:hover {
+  transform: scale(1.1);
+}
+
+// @keyframes blinkingText {
+//   0% {
+//     color: #fd5353;
+//   }
+//   49% {
+//     color: #fd6868;
+//   }
+//   60% {
+//     color: transparent;
+//   }
+//   99% {
+//     color: transparent;
+//   }
+//   100% {
+//     color: #ff8181;
+//   }
+// }
