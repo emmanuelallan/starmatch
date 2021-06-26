@@ -10,13 +10,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   background-color: #f4f8fd;
 }
 
@@ -27,13 +27,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .col-num {
@@ -41,19 +41,19 @@
   height: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (27%) [3];
-  grid-template-columns: repeat(3, 27%);
-  -ms-grid-rows: (29%) [3];
-  grid-template-rows: repeat(3, 29%);
+  -ms-grid-columns: (27%)[3];
+      grid-template-columns: repeat(3, 27%);
+  -ms-grid-rows: (29%)[3];
+      grid-template-rows: repeat(3, 29%);
   -webkit-column-gap: 4%;
-  column-gap: 4%;
+          column-gap: 4%;
   row-gap: 4%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .col-num .number {
@@ -80,19 +80,19 @@
   border-radius: 10px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (27%) [3];
-  grid-template-columns: repeat(3, 27%);
-  -ms-grid-rows: (29%) [3];
-  grid-template-rows: repeat(3, 29%);
+  -ms-grid-columns: (27%)[3];
+      grid-template-columns: repeat(3, 27%);
+  -ms-grid-rows: (29%)[3];
+      grid-template-rows: repeat(3, 29%);
   -webkit-column-gap: 4%;
-  column-gap: 4%;
+          column-gap: 4%;
   row-gap: 4%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .star {
@@ -144,13 +144,13 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 .game-done .message {
@@ -161,7 +161,7 @@
 
 .play-again {
   -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
   border-radius: 2px;
   padding: 9px 15px;
   border: 1px solid #d9d9d9;
@@ -173,6 +173,6 @@
 
 .play-again:hover {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=app.css.map */
