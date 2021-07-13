@@ -1,0 +1,7 @@
+{
+    "name": "starmatch",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }
