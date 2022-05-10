@@ -3,6 +3,9 @@
 > Numbers game for kids to pick 1 or more numbers that sun to the number of stars
 
 
+![Slide 16_9 - 1](https://user-images.githubusercontent.com/29913493/167653787-d1a937c6-c6aa-4d5c-b3e6-4fb3523a161a.png)
+
+
 ## Built With
 
 - React Js, Ionic
